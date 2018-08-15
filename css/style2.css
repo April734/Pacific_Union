@@ -1,0 +1,275 @@
+
+
+* {
+  text-decoration: none;
+}
+
+
+main {
+
+  padding-top: 100px;
+
+  background-image: url("../resources/img/linedpaper.png");
+
+  /*
+  background-color: white;
+  */
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 115px;
+}
+
+header .header-brand {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: 550;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav ul {
+display: block;
+margin: 0 auto;
+width: fit-content;
+}
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0px 16px;
+}
+
+header nav ul li a {
+  font-family: "Playfair Display";
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+header .header-cases {
+  display: none;
+}
+
+header img {
+  width: 80px;
+  height: 70px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+
+@media only screen and (min-width: 622px) {
+  header {
+    height: 100px;
+  }
+
+header img {
+  padding-top: 16px;
+}
+
+}
+
+@media only screen and (min-width: 1000px) {
+  header .header-brand {
+    margin: 31px 0;
+    text-align: left;
+    line-height: 38px;
+    padding: 0 20px 0 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+
+  header nav ul {
+  margin: 20px 0px 0px 20px;
+  float: left;
+  }
+
+
+  header nav ul li a {
+    line-height: 60px;
+}
+
+header .header-cases {
+  display: block;
+  font-family: Catamaran;
+  font-size: 16px;
+  color: #111;
+  text-transform: uppercase;
+  line-height: 38px;
+  border: 1px solid #111;
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+}
+
+
+/* Body */
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+  margin: 0;
+  background: #eee;
+  height: auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  max-width: 100%;
+  margin: auto;
+  /*
+  box-shadow: 30px 0px 40px rgba(0,0,0,0.1),
+  -30px 0px 40px rgba(0,0,0,0.1);
+  */
+}
+
+#landing {
+  background: #fff;
+  display: flex;
+  height: 100%;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 88.1vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#landing-text h2 {
+  color: #888;
+}
+
+#landing-image {
+background-image: url("img/papaioannou-kostas-337812-unsplash.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 88.1vh;
+flex: 0 1 60vw;
+margin: 0;
+url(https://source.unsplash.com/De8wMYoSSBc);
+}
+
+
+/* Header Image */
+/*
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url("../resources/img/Scan 4.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+*/
+/* Main */
+
+.container {
+  margin: 20px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #4a7f7f;
+}
+
+.container-2 {
+  margin: 20px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #4a7f7f;
+}
+
+.container-3 {
+  margin: 20px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #4a7f7f;
+}
+
+.box {
+  margin: 20px;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.box p {
+  font-family: "Quattrocento Sans";
+  line-height: 22px;
+  font-family:
+}
+
+.dividers {
+  background: #4A7f7f;
+}
+
+
+.dividers h2 {
+  font-family: "Playfair Display";
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 1.5rem;
+
+}
+
+.sub-heading h2 {
+  font-size: 24px;
+  font-family: "Playfair Display";
+}
+
+.title h1 {
+  font-size: 42px;
+  font-family: "Playfair Display";
+  text-align: center;
+  margin-top: 34px;
+  color: #D9B14F;
+}
+
+@media only screen and (min-width: 612px) {
+  .title h1 {
+    margin-top: 18px;
+  }
+  }
