@@ -3,7 +3,7 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
-  background: #eee;
+  background: white;
   height: auto;
 }
 
@@ -41,7 +41,8 @@ main {
 
 #landing-text {
   text-align: center;
-  padding-top: 220px;
+  padding-top: 260px;
+  color: white;
 }
 
 /*
@@ -62,7 +63,7 @@ main {
 */
 
 #landing-image {
-background: url(../resources/img/alexis-brown-85793-unsplash.jpg);
+background: url(../resources/img/pexels-photo-450059.jpeg);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -73,6 +74,7 @@ margin: 0;
 }
 
 .btn {
+  font-size: 22px;
   padding: 0.5rem 2rem;
   border: 1px #ccc solid;
   display: inline-block;
@@ -95,6 +97,7 @@ margin: 0;
 }
 
 #header h2 {
+  font-size: 30px;
 border-left: dotted 1px #fff;
 border-right: dotted 1px #fff;
 display:inline-block;
@@ -103,12 +106,18 @@ padding-left: 1rem;
 }
 
 /* Main */
+section {
+background-color: #cce6ff;
+}
 
-
+.blue {
+    background-color: #ffbf00;
+}
 
 .question {
   text-align: center;
   padding-top: 37px;
+  padding-bottom: 37px;
 }
 
 .question h2 {
@@ -117,24 +126,45 @@ padding-left: 1rem;
 
 .container {
 display: block;
-padding: 20px 0;
-background-color: #4a7f7f;
+padding: 22px 0px;
+background-color: white;
+}
+
+.container div {
+padding: 30px 15px;
 }
 
 .container-2 {
 display: block;
-padding: 20px 0;
-background-color: #f7f7f7;
+padding: 26px 0;
+background-color: crimson;
+}
+
+.container-2 div {
+  padding: 30px 15px;
 }
 
 .box-text {
+  color: black;
 padding: 0 20px;
+line-height: 22px;
+background-color: white;
+/*
 border: 1px solid blue;
+*/
+}
+
+.box-text-2 {
+  flex: 2;
+order: 2;
+line-height: 22px;
 }
 
 .box-image {
 margin: 0 auto;
+/*
 border: 1px solid blue;
+*/
 
 }
 
@@ -159,22 +189,28 @@ padding-left: 37px;
 }
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
   .container {
   display: flex;
   padding: 15px 0;
+  /*
   margin-top: 20px;
+  */
   }
 
   .container-2 {
   display: flex;
   padding: 20px 0;
+  /*
   margin-top: 20px;
+  */
   }
 
   .box-text-2 {
   padding: 0 20px;
+  /*
   border: 1px solid blue;
+  */
   }
 
 .box-text {
@@ -182,6 +218,7 @@ padding-left: 37px;
 }
 
 .box-text-2 {
+
   flex: 2;
 order: 2;
 }
@@ -189,7 +226,7 @@ order: 2;
 .box-image {
   flex: 1;
   padding-right: 37px;
-  border-left: 2px solid white;
+
 }
 
 .box-image-2 {
@@ -201,27 +238,46 @@ order: 2;
 height: auto;
 width: 300px;
 padding-right: 37px;
+/*
 border: 1px solid blue;
-
+*/
 }
 
 
 .subject {
   text-align: center;
   padding-top: 30px;
+  /*
   border: 1px solid blue;
-  background-color: #4a7f7f;
+  */
+  background-color: white;
 padding-bottom: 22px;
+/*
 margin-top: 40px;
+*/
+}
+
+.subject h2 {
+  font-size: 22px;
+padding-top: 34px;
 }
 
 .subject-2 {
   text-align: center;
   padding-top: 30px;
+  /*
   border: 1px solid blue;
-  background-color: #f7f7f7;
+  */
+  background-color: crimson;
 padding-bottom: 22px;
+/*
 margin-top: 40px;
+*/
+}
+
+.subject-2 h2 {
+  font-size: 22px;
+  padding-top: 34px;
 }
 
   }
