@@ -243,34 +243,225 @@ line-height: 25px;
   margin-bottom: 25px;
 }
 
-@media only screen and (min-width: 800px) {
+
+@media only screen and (max-width: 375px) {
+  #image-header {
+    position: absolute;
+  top: 189px;
+  left: 30px;
+
+  }
+
+  #title-3 {
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+
+    opacity: 0.7;
+
+  }
+
+
+  #title-3 p {
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    color: white;
+    top: 375px;
+    left: 0px;
+  background-color: #478689;
+  padding: 40px 40px;
+
+  }
+
+  .container {
+/*
+    display: block;
+*/
+    position: relative;
+    text-align: center;
+    background: url('../resources/img/agustinus-nathaniel-701029-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    margin-bottom: 25px;
+
+
+
+    height: 725px;
+  }
+
+  .container-4 {
+    display: block;
+    border: 1px solid #c8cccf;
+    margin: 0 30px;
+    margin-bottom: 25px;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
   .container {
     display: block;
     text-align: center;
 
-    height: 450px;
+    height: 510px;
   }
 
+.box-4 {
+  flex:1;
+}
+
+#image-header {
+position: absolute;
+top: 105px;
+left: 220px;
+
+}
+
+#title-3 {
+  font-size: 15px;
+  color: white;
+  line-height: 20px;
+
+  opacity: 0.7;
+
+}
 
 
+#title-3 p {
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  color: white;
+  top: 270px;
+  left: 120px;
+background-color: #478689;
+padding: 40px 40px;
 
-
+}
 
 
 }
+
+
+
+
+
+
 
 
 /* OFFICERS */
 
-.container-6 {
+.side-1 {
 
 }
 
 .box-6 {
-position: absolute;
+position: relative;
+left: 5px;
+padding: 10px 0;
+line-height: 25px;
+font-weight: bold;
+z-index: -1;
 }
 
+
+
 .box-7 {
-  position: absolute;
-  
+  position: relative;
+  left: 195px;
+top: -260px;
+line-height: 25px;
+z-index: -1;
+}
+
+.side-2 {
+
+}
+
+.box-8 {
+  position: relative;
+  padding: 15px 0;
+  line-height: 25px;
+  font-weight: bold;
+  left: 5px;
+  top: -235px;
+  z-index: -1;
+}
+
+.box-9 {
+  position: relative;
+  left: 195px;
+top: -325px;
+line-height: 25px;
+z-index: -1;
+}
+
+.side-3 {
+
+}
+
+.box-10 {
+  position: relative;
+  top: -275px;
+  left: 5px;
+  padding: 15px 0;
+  line-height: 25px;
+  font-weight: bold;
+  z-index: -1;
+}
+
+.box-11 {
+  position: relative;
+  left: 185px;
+  top: -465px;
+  line-height: 25px;
+  z-index: -1;
+}
+
+.side-4 {
+
+}
+
+.box-12 {
+  position: relative;
+  top: -405px;
+  left: 5px;
+  padding: 15px 0;
+  line-height: 25px;
+  font-weight: bold;
+  z-index: -1;
+}
+
+.box-13 {
+  position: relative;
+  left: 195px;
+top: -595px;
+line-height: 25px;
+z-index: -1;
+}
+
+.side-5 {
+
+}
+
+.box-14 {
+  position: relative;
+  top: -515px;
+  left: 5px;
+  padding: 15px 0;
+  line-height: 25px;
+  font-weight: bold;
+  z-index: -1;
+}
+
+.box-15 {
+  position: relative;
+  left: 195px;
+top: -730px;
+line-height: 25px;
+z-index: -1;
 }
