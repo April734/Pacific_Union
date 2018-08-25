@@ -117,6 +117,7 @@ header .header-cases {
 }
 
 /* Main */
+
 .container {
   /*
   display: block;
@@ -171,16 +172,21 @@ width: 589px;
   position: absolute;
   color: white;
   top: 100px;
-  left: 550px;
+  left: 670px;
 background-color: #478689;
 padding: 40px 40px;
 
 }
 
+#title-3 a {
+
+  
+}
+
 #image-header {
   position: absolute;
 top: 189px;
-left: 280px;
+left: 420px;
 
 }
 
@@ -466,7 +472,7 @@ line-height: 25px;
 z-index: -1;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px){
   .side-1 {
 
   }
@@ -578,6 +584,99 @@ z-index: -1;
     position: relative;
     left: 590px;
   top: -1465px;
+  line-height: 25px;
+  z-index: -1;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1281px){
+  .side-2 {
+
+  }
+
+  .box-8 {
+    position: relative;
+    font-size: 18px;
+    padding: 15px 0;
+    line-height: 25px;
+    font-weight: bold;
+    left: 420px;
+    top: -550px;
+    z-index: -1;
+  }
+
+  .box-9 {
+    position: relative;
+    font-size: 18px;
+    left: 535px;
+  top: -640px;
+  line-height: 25px;
+  z-index: -1;
+  }
+
+  .side-3 {
+
+  }
+
+  .box-10 {
+    position: relative;
+    font-size: 18px;
+    top: -755px;
+    left: 740px;
+    padding: 15px 0;
+    line-height: 25px;
+    font-weight: bold;
+    z-index: -1;
+  }
+
+  .box-11 {
+    position: relative;
+    left: 895px;
+    top: -945px;
+    line-height: 25px;
+    z-index: -1;
+  }
+
+  .side-4 {
+
+  }
+
+  .box-12 {
+    position: relative;
+    top: -835px;
+    left: 5px;
+    padding: 15px 0;
+    line-height: 25px;
+    font-weight: bold;
+    z-index: -1;
+  }
+
+  .box-13 {
+  position: relative;
+  left: 245px;
+  top: -1025px;
+  line-height: 25px;
+  z-index: -1;
+  }
+
+  .side-5 {
+
+  }
+
+  .box-14 {
+    position: relative;
+    top: 245px;
+    left: -1025px;
+    padding: 15px 0;
+    line-height: 25px;
+    font-weight: bold;
+    z-index: -1;
+  }
+
+  .box-15 {
+    position: relative;
+    left: 5px;
+  top: -1025px;
   line-height: 25px;
   z-index: -1;
   }
