@@ -149,7 +149,7 @@ header .header-cases {
   */
   position: relative;
   text-align: center;
-  background: url('../resources/img/agustinus-nathaniel-701029-unsplash.jpg');
+  background: url('../resources/img/agustinus-nathaniel-701029-unsplash-2.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -213,7 +213,7 @@ padding: 40px 40px;
 
 }
 
-.failure a {
+.link-app a {
   display: block;
 margin-bottom: 20px;
 border: 1px solid #bfbfbf;
@@ -224,7 +224,7 @@ background-color: white;
 font-size: 20px;
 }
 
-.failure a:hover {
+.link-app a:hover {
   background-color: #e6e6e6;
 }
 
@@ -283,13 +283,12 @@ margin-bottom: 25px;
 }
 
 
-}
-
-
 .container-5 {
+
   border: 1px solid #c8cccf;
-  margin: 0 30px;
-  margin-bottom: 25px;
+
+  margin: 25px 30px;
+  margin-bottom:
 
 }
 

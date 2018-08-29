@@ -48,7 +48,7 @@ header nav ul li {
   display: inline-block;
   float: left;
   list-style: none;
-  padding: 0px 16px;
+  padding: 0px 12px;
 }
 
 header nav ul li a {
@@ -83,6 +83,10 @@ header img {
 header nav ul {
 padding-left: 0px;
 }
+
+header nav ul li {
+  padding: 0px 16px;
+}
 }
 
 @media only screen and (min-width: 1000px) {
@@ -104,6 +108,9 @@ padding-left: 0px;
   float: left;
   }
 
+  header nav ul li {
+    padding: 0px 16px;
+  }
 
   header nav ul li a {
     line-height: 60px;
@@ -173,6 +180,9 @@ main {
   color: white;
 }
 
+#landing-text h2 {
+  color: white;
+}
 /*
 #landing-text {
   display: flex;
@@ -238,7 +248,7 @@ padding-left: 1rem;
 
 /* Main */
 section {
-background-color: #cce6ff;
+background-color: #e6e6e6;
 }
 
 .blue {
@@ -323,6 +333,31 @@ padding-left: 37px;
 
 }
 
+.subject {
+  text-align: center;
+  padding-top: 30px;
+  background-color: white;
+
+
+}
+
+.subject h2 {
+  font-size: 22px;
+padding-top: 34px;
+}
+
+.subject-2 {
+  text-align: center;
+  padding-top: 30px;
+  background-color: crimson;
+padding-bottom: 0px;
+}
+
+.subject-2 h2 {
+  font-size: 22px;
+  padding-top: 34px;
+}
+
 
 @media only screen and (min-width: 800px) {
   .container {
@@ -388,14 +423,9 @@ border: 1px solid blue;
 .subject {
   text-align: center;
   padding-top: 30px;
-  /*
-  border: 1px solid blue;
-  */
   background-color: white;
 padding-bottom: 22px;
-/*
-margin-top: 40px;
-*/
+
 }
 
 .subject h2 {
@@ -406,14 +436,8 @@ padding-top: 34px;
 .subject-2 {
   text-align: center;
   padding-top: 30px;
-  /*
-  border: 1px solid blue;
-  */
   background-color: crimson;
 padding-bottom: 22px;
-/*
-margin-top: 40px;
-*/
 }
 
 .subject-2 h2 {
@@ -423,6 +447,14 @@ margin-top: 40px;
 
   }
 
+/* Resource Section */
+.resource {
+  padding: 10px 10px;
+}
+
+.citations-style {
+  font-style: italic;
+}
 
   /* Dropdown Button */
   .dropbtn {

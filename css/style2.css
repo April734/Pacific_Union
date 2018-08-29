@@ -48,7 +48,7 @@ header nav ul li {
   display: inline-block;
   float: left;
   list-style: none;
-  padding: 0px 16px;
+  padding: 0px 12px;
 
 }
 
@@ -88,6 +88,12 @@ width: fit-content;
   padding-left: 0px;
 }
 
+header nav ul li {
+
+  padding: 0px 16px;
+
+}
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -104,6 +110,12 @@ width: fit-content;
     padding-left: 0px;
   margin: 20px 0px 0px 20px;
   float: left;
+  }
+
+  header nav ul li {
+
+    padding: 0px 16px;
+
   }
 
 
