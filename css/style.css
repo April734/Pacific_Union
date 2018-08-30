@@ -218,6 +218,7 @@ main {
 
 #landing-text h2 {
   color: white;
+  font-family: "Open Sans", sans-serif;
 }
 /*
 #landing-text {
@@ -323,6 +324,7 @@ background-color: crimson;
 
 .box-text {
   color: black;
+  font-family: "Open Sans", sans-serif;
 padding: 0 20px;
 line-height: 22px;
 background-color: white;
@@ -332,6 +334,7 @@ border: 1px solid blue;
 }
 
 .box-text-2 {
+  font-family: "Open Sans", sans-serif;
   flex: 2;
 order: 2;
 line-height: 22px;
@@ -392,6 +395,15 @@ padding-bottom: 0px;
 .subject-2 h2 {
   font-size: 22px;
   padding-top: 34px;
+}
+
+.title-resource {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.citations {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -553,7 +565,7 @@ padding-bottom: 22px;
   @media only screen and (min-width: 1024px) {
     #landing-text {
       text-align: center;
-      padding-top: 500px;
+      padding-top: 280px;
       color: white;
 
     }
@@ -623,6 +635,11 @@ padding-bottom: 22px;
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #e6c374;}
 
+  @media only screen and (max-width: 375px) {
+    .dropdown-content a {
+        font-size: 14px;
+    }
+  }
 
   @media only screen and (min-width: 1000px) {
     .dropdown-content {

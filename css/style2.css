@@ -379,6 +379,11 @@ url(https://source.unsplash.com/De8wMYoSSBc);
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #e6c374;}
 
+  @media only screen and (max-width: 375px) {
+    .dropdown-content a {
+        font-size: 14px;
+    }
+  }
 
   @media only screen and (min-width: 1000px) {
     .dropdown-content {

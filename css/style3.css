@@ -27,7 +27,7 @@ header {
 }
 
 header .header-brand {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   font-size: 24px;
   font-weight: 550;
   color: #111;
@@ -53,7 +53,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   font-size: 15px;
   color: #111;
   text-transform: uppercase;
@@ -74,12 +74,12 @@ header img {
 
 @media only screen and (max-width: 325px) {
   header {
-    height: 125px;
+    height: 145px;
 
   }
 
   header .header-brand {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-size: 20px;
     font-weight: 550;
     color: #111;
@@ -99,7 +99,7 @@ header img {
   }
 
   header nav ul li a {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-size: 14px;
     color: #111;
     text-transform: uppercase;
@@ -175,6 +175,8 @@ header .header-cases {
   margin-top: 30px;
   padding: 0 20px;
 }
+
+
 }
 
 /* Main */
@@ -258,6 +260,7 @@ text-align: center;
 color: #e6c374;
 background-color: white;
 font-size: 20px;
+font-family: "Open Sans", sans-serif;
 }
 
 .link-app a:hover {
@@ -341,13 +344,17 @@ margin-bottom: 25px;
 
 .dividers-2 h2 {
 
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   text-align: center;
   color: white;
   font-size: 30px;
   padding: 1.5rem;
 margin-bottom: 25px;
 
+}
+
+.info p {
+  font-family: "Open Sans", sans-serif;
 }
 
 @media only screen and (max-width: 325px) {
@@ -381,6 +388,7 @@ margin-bottom: 25px;
   */
   background-color: white;
   opacity: 0.5;
+  padding-top: 20px;
   }
 
 }
@@ -523,15 +531,11 @@ padding: 40px 40px;
 
 }
 
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width:801px) and (max-width: 2000px) {
   .container {
     height: 560px;
-
   }
-
-
-
+}
 
 
 * {
@@ -635,6 +639,7 @@ br {
 
 }
 
+
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
@@ -671,7 +676,15 @@ br {
 .dropdown:hover .dropbtn {background-color: #e6c374;}
 
 
+@media only screen and (max-width: 375px) {
+  .dropdown-content a {
+      font-size: 14px;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
+
+
   .dropdown-content {
 
         margin-top: 42px;
