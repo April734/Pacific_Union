@@ -72,6 +72,40 @@ header img {
   padding-top: 20px;
 }
 
+@media only screen and (max-width: 325px) {
+  header {
+    height: 125px;
+
+  }
+
+  header .header-brand {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    font-weight: 550;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    padding-right: 20px;
+  }
+
+  header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  padding-left: 70px;
+  }
+
+  header nav ul li a {
+    font-family: "Playfair Display";
+    font-size: 14px;
+    color: #111;
+    text-transform: uppercase;
+  }
+
+}
 
 @media only screen and (min-width: 622px) {
   header {
@@ -95,6 +129,8 @@ header nav ul li {
 
 }
 }
+
+
 
 @media only screen and (min-width: 1000px) {
   header .header-brand {
@@ -314,6 +350,49 @@ margin-bottom: 25px;
 
 }
 
+@media only screen and (max-width: 325px) {
+
+  .container {
+    /*
+    display: block;
+    */
+    position: relative;
+    text-align: center;
+    background: url('../resources/img/agustinus-nathaniel-701029-unsplash-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    margin-bottom: 25px;
+
+
+
+    height: 560px;
+  }
+
+
+
+  #title {
+
+  font-size: 60px;
+  color: white;
+  /*
+  width: 589px;
+  */
+  background-color: white;
+  opacity: 0.5;
+  }
+
+}
+
+@media only screen and (min-width: 360px) {
+  .container {
+
+    height: 620px;
+  }
+}
+
+
 @media only screen and (max-width: 500px) {
   /*
   #image-header {
@@ -445,7 +524,11 @@ padding: 40px 40px;
 }
 
 
+@media only screen and (min-width: 1024px) {
+  .container {
+    height: 560px;
 
+  }
 
 
 
@@ -529,19 +612,7 @@ br {
   }
 }
 
-@media only screen and (min-width: 1350px) {
-  /* Create four equal columns that floats next to each other */
-  .column {
-      float: left;
-      /*
-      width: 25%;
-      */
-      width: 12.5%;
-      padding: 10px;
 
-      height: 280px; /* Should be removed. Only for demonstration */
-
-  }
 
   /* Clear floats after the columns */
   .row:after {
