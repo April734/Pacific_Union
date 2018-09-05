@@ -18,6 +18,7 @@ main {
 }
 
 header {
+  z-index: 10;
   position: fixed;
   top: 0;
   right: 0;
@@ -74,8 +75,8 @@ padding-top: 20px;
 @media only screen and (max-width: 325px) {
 header {
   height: 125px;
-
 }
+
 
 header .header-brand {
   font-family: "Playfair Display";
@@ -208,13 +209,27 @@ main {
 }
 
 #landing {
+
+  /*
  background: #fff;
+*/
+ position: relative;
+ text-align: center;
+
 }
 
 #landing-text {
+
+  /*
  text-align: center;
  padding-top: 260px;
+ */
  color: white;
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
 }
 
 #landing-text h2 {
@@ -238,13 +253,14 @@ main {
 */
 
 #landing-image {
-background: url(../resources/img/pexels-photo-450059.jpeg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-height: calc(100vh - 115px);
-flex: 0 1 60vw;
-margin: 0;
+  background: url(../resources/img/pexels-photo-450059.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 115px);
+  flex: 0 1 60vw;
+  margin: 0;
+
 
 }
 
@@ -341,41 +357,44 @@ line-height: 22px;
 }
 
 .box-image {
-  /*
+
 margin: 0 auto;
-*/
+
 
 }
 
 .box-image img {
+  /*
 display:block;
 margin-left: auto;
 margin-right: auto;
 width: 45%;
-/*
+*/
 height: auto;
 width: 300px;
 
 padding-left: 37px;
-*/
+
 }
 
 .box-image-2 {
-  /*
+
  margin: 0 auto;
- */
+
 }
 
 .box-image-2 img {
+  /*
   display:block;
   margin-left: auto;
   margin-right: auto;
   width: 45%;
-/*
+  */
+
 height: auto;
 width: 300px;
 padding-left: 37px;
-*/
+
 }
 
 .box p {
@@ -421,13 +440,13 @@ padding-bottom: 0px;
  #landing {
    background: #fff;
  }
-
+/*
  #landing-text {
    text-align: center;
    padding-top: 100px;
    color: white;
  }
-
+*/
 
  .box-image {
  margin: 0 auto;
@@ -452,6 +471,7 @@ padding-bottom: 0px;
 
 
 @media only screen and (min-width: 360px) {
+  /*
  #landing-text {
    text-align: center;
    padding-top: 150px;
@@ -482,7 +502,7 @@ padding-bottom: 0px;
          line-height: 25px;
      }
 }
-
+*/
 @media only screen and (min-width: 800px) {
  .container {
  display: flex;
@@ -571,7 +591,7 @@ padding-bottom: 22px;
 
  }
 
-
+/*
  @media only screen and (min-width: 1024px) {
    #landing-text {
      text-align: center;
@@ -628,7 +648,7 @@ padding-bottom: 22px;
     font-family: "Open Sans", sans-serif;
    }
  }
-
+*/
 /* Resource Section */
 .resource {
  padding: 10px 10px;
@@ -638,59 +658,21 @@ padding-bottom: 22px;
  font-style: italic;
 }
 
- /* Dropdown Button */
- .dropbtn {
-     background-color: #4a7f7f;
-     color: white;
-     padding: 2px;
-     font-size: 15px;
-     border: none;
+/*footer*/
 
- }
 
- /* The container <div> - needed to position the dropdown content */
- .dropdown {
-     position: relative;
-     display: inline-block;
- }
+footer {
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
 
- /* Dropdown Content (Hidden by Default) */
- .dropdown-content {
-     display: none;
-     position: absolute;
-     background-color: #f1f1f1;
-     min-width: 100px;
-     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-     z-index: 1;
-       margin-top: 18px;
- }
-
- /* Links inside the dropdown */
- .dropdown-content a {
-     color: black;
-     padding: 12px 16px;
-     text-decoration: none;
-     display: block;
-
- }
-
- /* Change color of dropdown links on hover */
- .dropdown-content a:hover {background-color: #ddd;}
-
- /* Show the dropdown menu on hover */
- .dropdown:hover .dropdown-content {display: block;}
-
- /* Change the background color of the dropdown button when the dropdown content is shown */
- .dropdown:hover .dropbtn {background-color: #e6c374;}
-
- @media only screen and (max-width: 375px) {
-   .dropdown-content a {
-       font-size: 14px;
-   }
- }
-
- @media only screen and (min-width: 1000px) {
-   .dropdown-content {
-
-         margin-top: 42px;
-   }
+.footer-text {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #e0e2db;
+  margin-bottom: 10px;
+}

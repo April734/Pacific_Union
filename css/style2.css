@@ -392,3 +392,19 @@ url(https://source.unsplash.com/De8wMYoSSBc);
     }
 
   }
+
+  footer {
+    background-color: #4a7f7f;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .footer-text {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #e0e2db;
+    margin-bottom: 10px;
+  }
