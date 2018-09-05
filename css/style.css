@@ -1,5 +1,6 @@
 
 
+
 * {
   text-decoration: none;
 }
@@ -340,31 +341,41 @@ line-height: 22px;
 }
 
 .box-image {
+  /*
 margin: 0 auto;
-/*
-border: 1px solid blue;
 */
 
 }
 
 .box-image img {
-
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 45%;
+/*
 height: auto;
 width: 300px;
-padding-left: 37px;
 
+padding-left: 37px;
+*/
 }
 
 .box-image-2 {
+  /*
  margin: 0 auto;
+ */
 }
 
 .box-image-2 img {
-
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+/*
 height: auto;
 width: 300px;
 padding-left: 37px;
-
+*/
 }
 
 .box p {
@@ -683,5 +694,3 @@ padding-bottom: 22px;
 
          margin-top: 42px;
    }
-
- }
