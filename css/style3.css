@@ -268,12 +268,10 @@ left: 270px;
 */
 }
 
-
 .dividers {
   background: #4A7f7f;
 
 }
-
 
 .dividers h2 {
   font-family: "Playfair Display";
@@ -285,8 +283,6 @@ margin-bottom: 25px;
 
 }
 
-
-
 .container-4 {
   display: flex;
   border: 1px solid #c8cccf;
@@ -296,11 +292,8 @@ margin-bottom: 25px;
 }
 
 .box-4 {
-
   padding: 15px;
-
     border: 1px solid #c8cccf;
-
     flex: 1;
 }
 
@@ -390,6 +383,10 @@ margin-bottom: 25px;
   .container {
 
     height: 620px;
+  }
+
+  #title {
+    font-size: 55px;
   }
 }
 
