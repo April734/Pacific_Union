@@ -392,6 +392,7 @@ margin: 0 auto;
 
 
 }
+
 @media only screen and (max-width: 324px) and (min-width: 260px) {
 
   #title h1 {
@@ -401,9 +402,9 @@ margin: 0 auto;
 }
 
 
-@media only screen and (min-width: 360px) {
-  .container {
-    height: 620px;
+@media only screen and (max-width: 414px) and (min-width: 375px) {
+  div.#image-banner {
+    height: 500px;
   }
 
 
@@ -469,7 +470,7 @@ margin: 0 auto;
   }
 
 div.container {
-  height: 595px;
+  height: 525px;
 }
   .container-4 {
     display: block;
