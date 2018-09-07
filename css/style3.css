@@ -192,11 +192,13 @@ header .header-cases {
   height: 560px;
 }
 
-
+.box {
+  font-size: 10px;
+}
 
 #title {
 
-font-size: 70px;
+font-size: 7em;
 color: white;
 /*
 width: 589px;
@@ -367,6 +369,13 @@ margin-bottom: 25px;
 
   #title {
 
+/*
+width: 95vw;
+*/
+margin: 0 auto;
+
+
+
   font-size: 60px;
   color: white;
   /*
@@ -381,13 +390,12 @@ margin-bottom: 25px;
 
 @media only screen and (min-width: 360px) {
   .container {
-
     height: 620px;
   }
 
-  #title {
-    font-size: 55px;
-  }
+#title {
+  margin: 0 auto;
+}
 }
 
 
@@ -405,6 +413,10 @@ margin-bottom: 25px;
     left: -185px;
   }
 */
+
+#title h1 {
+
+}
   #title-3 {
     font-size: 15px;
     color: white;
