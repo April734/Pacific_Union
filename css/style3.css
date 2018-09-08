@@ -228,7 +228,7 @@ padding: 40px 40px;
 
 .link-app a {
   display: block;
-margin-bottom: 20px;
+margin-bottom: 45px;
 border: 1px solid #bfbfbf;
 border-radius: 50px;
 text-align: center;
@@ -318,9 +318,6 @@ margin-bottom: 25px;
   font-family: "Open Sans", sans-serif;
 }
 
-#image-banner {
-  display: block;
-}
 
 .gray {
   background: rgba(132, 132, 133, 0.2);
@@ -367,7 +364,7 @@ margin-bottom: 25px;
       display: block;
       margin-left:auto;
       margin-right: auto;
-      width: 60%;
+      width: 70%;
       }
 }
 
