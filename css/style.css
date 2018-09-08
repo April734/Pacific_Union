@@ -229,9 +229,15 @@ main {
  transform: translate(-50%, -50%);
 }
 
+#landing-text h1 {
+    text-shadow: 4px 4px #4A7f7f;
+
+}
+
 #landing-text h2 {
  color: white;
  font-family: "Open Sans", sans-serif;
+  text-shadow: 3px 3px #4A7F7F;
 }
 /*
 #landing-text {
