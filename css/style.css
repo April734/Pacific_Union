@@ -359,6 +359,9 @@ border: 1px solid blue;
  flex: 0 1 auto;
 order: 2;
 line-height: 22px;
+
+-ms-flex: 0 1 auto; /* IE 10 */
+-ms-order: 2;
 }
 
 
