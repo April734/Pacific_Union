@@ -213,12 +213,8 @@ main {
 
 }
 
-#landing-text {
 
-  /*
- text-align: center;
- padding-top: 260px;
- */
+#landing-text {
  color: white;
 
  position: absolute;
@@ -237,21 +233,16 @@ main {
  font-family: "Open Sans", sans-serif;
   text-shadow: 2px 2px #4A7F7F;
 }
-/*
-#landing-text {
- display: flex;
- flex: 0 1 40vw;
- height: 50vh;
- justify-content: center;
- align-items: center;
- text-align: center;
- padding-right: 1rem;
- padding-left: 1rem;
+
+#landing-text h3 {
+ color: white;
+ font-size: 14px;
+ padding-top: 10px;
+ font-family: "Open Sans", sans-serif;
+  text-shadow: 2px 2px #4A7F7F;
+  font-style: italic;
 }
-#landing-text h2 {
- color: #888;
-}
-*/
+
 
 #landing-image {
   background: url(../resources/img/pexels-photo-450059.jpeg);
@@ -570,64 +561,6 @@ padding-bottom: 22px;
 
  }
 
-/*
- @media only screen and (min-width: 1024px) {
-   #landing-text {
-     text-align: center;
-     padding-top: 280px;
-     color: white;
-
-   }
-
-   #landing-text h1 {
-       line-height: 50px;
-   }
-
-   #landing-text h2 {
-     font-size: 24px;
-       line-height: 30px;
-   }
- }
-
- @media only screen and (min-width: 568px) and (orientation: landscape) {
-   #landing-text {
-    text-align: center;
-    padding-top: 60px;
-    color: white;
-   }
-
-   #landing-text h2 {
-    color: white;
-    font-family: "Open Sans", sans-serif;
-   }
- }
-
- @media only screen and (min-width: 1024px) and (orientation: landscape) {
-   #landing-text {
-    text-align: center;
-    padding-top: 190px;
-    color: white;
-   }
-
-   #landing-text h2 {
-    color: white;
-    font-family: "Open Sans", sans-serif;
-   }
- }
-
- @media only screen and (min-width: 1366px) and (orientation: landscape) {
-   #landing-text {
-    text-align: center;
-    padding-top: 320px;
-    color: white;
-   }
-
-   #landing-text h2 {
-    color: white;
-    font-family: "Open Sans", sans-serif;
-   }
- }
-*/
 /* Resource Section */
 .resource {
  padding: 10px 10px;
