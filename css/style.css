@@ -346,6 +346,7 @@ border: 1px solid blue;
 
 .box-text-2 {
  font-family: "Open Sans", sans-serif;
+ color: white;
  padding: 0 20px;
  flex: 0 1 auto;
 order: 2;
@@ -370,6 +371,7 @@ line-height: 22px;
 }
 
 .subject h2 {
+
  font-size: 22px;
 padding-top: 34px;
 }
@@ -382,6 +384,7 @@ padding-top: 34px;
 }
 
 .subject-2 h2 {
+ color: white;
  font-size: 22px;
  padding-top: 34px;
 }
@@ -425,6 +428,26 @@ width: 85%;
   width: 85%;
 }
 
+#landing-text h1 {
+font-size: 28px;
+}
+
+#landing-text h2 {
+ color: white;
+ font-family: "Open Sans", sans-serif;
+  text-shadow: 2px 2px #4A7F7F;
+  font-size: 16px;
+}
+
+#landing-text h3 {
+ color: white;
+ font-size: 14px;
+ padding-top: 10px;
+ font-family: "Open Sans", sans-serif;
+  text-shadow: 2px 2px #4A7F7F;
+  font-style: italic;
+}
+
 }
 
 @media only screen and (min-width: 450px) {
@@ -436,6 +459,19 @@ width: 70%;
 .box-image-2 img {
   width: 70%;
 }
+
+#landing-text h1 {
+font-size: 34px;
+}
+
+#landing-text h2 {
+  font-size: 18px;
+}
+
+#landing-text h3 {
+ font-size: 16px;
+
+}
 }
 
 @media only screen and (min-width: 585px) {
@@ -446,6 +482,9 @@ width: 55%;
 .box-image-2 img {
   width: 55%;
 }
+
+
+
 }
 
 @media only screen and (min-width: 625px) {
@@ -561,6 +600,8 @@ padding-bottom: 22px;
 
  }
 
+
+
 /* Resource Section */
 .resource {
  padding: 10px 10px;
@@ -643,7 +684,8 @@ footer {
 
 .footer-text {
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
+  line-height: 15px;
   color: #e0e2db;
   margin-bottom: 10px;
 }
