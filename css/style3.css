@@ -35,7 +35,7 @@ header nav ul {
 display: block;
 margin: 0 auto;
 width: fit-content;
-padding-left: 90px;
+padding-left: 5px;
 }
 header nav ul li {
   display: inline-block;
@@ -58,13 +58,16 @@ header .header-cases {
 }
 
 header img {
-  width: 90px;
-  height: 86px;
-  float: left;
-  padding-left: 10px;
-  padding-top: 20px;
+width: 60px;
+height: 60px;
+float: left;
+padding-left: 10px;
+padding-top: 20px;
 }
 
+a.header-brand {
+  font-size: 20px;
+}
 @media only screen and (max-width: 320px) {
   header {
     height: 125px;
@@ -88,7 +91,7 @@ header img {
   display: block;
   margin: 0 auto;
   width: fit-content;
-  padding-left: 70px;
+  padding-left: 5px;
   }
 
   header nav ul li a {
@@ -97,6 +100,17 @@ header img {
     color: #111;
     text-transform: uppercase;
   }
+
+}
+
+@media only screen and (max-width: 346px) {
+header {
+  height: 125px;
+}
+
+header nav ul li a {
+  font-size: 12px;
+}
 
 }
 
@@ -147,7 +161,7 @@ header nav ul li {
 
   header nav ul li {
 
-    padding: 0px 16px;
+    padding: 0px 15px;
 
   }
 
@@ -169,8 +183,60 @@ header .header-cases {
   padding: 0 20px;
 }
 
+header img {
+width: 85px;
+height: 75px;
+float: left;
+padding-left: 10px;
+padding-top: 20px;
+}
 
 }
+
+.act-background {
+/*
+background-image: url("../resources/img/joanna-kosinska-433799-unsplash.jpg");
+*/
+background-color: #4c7f7f;
+}
+
+
+h2.act {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #cfa356;
+background-color: #fff;
+  margin-top: 20px;
+}
+
+p.act-text {
+  margin-top: 20px;
+    font-family: 'Quattrocento Sans', sans-serif;
+background-color: #fff;
+  text-align: center;
+
+}
+
+p.act-text2 {
+  margin-top: 20px;
+    margin-right: 20px;
+  float: right;
+    font-family: 'Quattrocento Sans', sans-serif;
+
+}
+
+.act-center {
+  display: block;
+  padding-top: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}
+
+
+
+
 
 /* Main */
 
@@ -675,6 +741,11 @@ br {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #e6c374;}
 
+@media only screen and (max-width: 346px) {
+  .dropbtn {
+    font-size: 12px;
+  }
+}
 
 @media only screen and (max-width: 375px) {
   .dropdown-content a {
@@ -699,6 +770,13 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
+
+}
+
+#act-footer {
+  background-color: black;
+  margin-top: 55px;
+position: sticky;
 }
 
 .footer-text {

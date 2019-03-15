@@ -28,7 +28,7 @@ header {
 
 header .header-brand {
   font-family: "Playfair Display";
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 550;
   color: #111;
   text-transform: uppercase;
@@ -42,7 +42,7 @@ header nav ul {
 display: block;
 margin: 0 auto;
 width: fit-content;
-padding-left: 90px;
+padding-left: 0px;
 }
 header nav ul li {
   display: inline-block;
@@ -63,8 +63,8 @@ display: none;
 }
 
 header img {
-width: 80px;
-height: 70px;
+width: 50px;
+height: 40px;
 float: left;
 padding-left: 10px;
 padding-top: 20px;
@@ -74,7 +74,6 @@ padding-top: 20px;
 header {
   height: 125px;
 }
-
 
 header .header-brand {
   font-family: "Playfair Display";
@@ -93,7 +92,7 @@ header nav ul {
 display: block;
 margin: 0 auto;
 width: fit-content;
-padding-left: 70px;
+padding-left: 5px;
 }
 
 header nav ul li a {
@@ -105,7 +104,16 @@ header nav ul li a {
 
 }
 
+@media only screen and (max-width: 346px) {
+header {
+  height: 125px;
+}
 
+header nav ul li a {
+  font-size: 12px;
+}
+
+}
 
 @media only screen and (min-width: 622px) {
 header {
@@ -145,7 +153,7 @@ float: left;
 }
 
 header nav ul li {
-  padding: 0px 16px;
+  padding: 0px 15px;
 }
 
 header nav ul li a {
@@ -166,6 +174,13 @@ font-size: 16px;
  padding: 0 20px;
 }
 
+header img {
+width: 75px;
+height: 55px;
+float: left;
+padding-left: 10px;
+padding-top: 20px;
+}
 
 }
 
@@ -656,6 +671,11 @@ padding-bottom: 22px;
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #e6c374;}
 
+@media only screen and (max-width: 346px) {
+  .dropbtn {
+    font-size: 12px;
+  }
+}
 @media only screen and (max-width: 375px) {
   .dropdown-content a {
       font-size: 14px;
